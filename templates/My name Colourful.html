@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive</title>
+	<style>
+		*
+		{
+			box-sizing: border-box;
+			margin: 0px;
+		}
+		.s
+		{
+			padding: 30px;
+			text-align: center;
+			width: 20%;
+			float: left;
+			background-color: red;
+		}
+		.n
+		{
+			padding: 30px;
+			float: left;
+			width: 60%;
+			background-color: blueviolet;
+			text-align: center;
+		}
+		.g
+		{
+			padding: 30px;
+			float: left;
+			width: 20%;
+			background-color: greenyellow;
+			text-align: center;
+		}
+		@media screen and (max-width:400px)
+		{
+			.s,.n,.g
+			{
+				width: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<p class="s">Sreenu</p>
+	<p class="n">Nivas</p>
+	<p class="g">Gattu</p>
+</body>
+</html>
